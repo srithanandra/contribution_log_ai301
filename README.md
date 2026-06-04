@@ -8,7 +8,7 @@
 
 **Issue:** [[GitHub issue link] ](https://github.com/Samsung/ONE/issues/15171) 
 
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Status:** Phase 1 Complete
 
 ---
 
