@@ -6,7 +6,7 @@
 
 **Student:** Srithan Andra
 
-**Issue:** [[GitHub issue link] ]([https://github.com/Samsung/ONE/issues/15171](https://github.com/valhalla/valhalla/issues/3412)) 
+**Issue:** [[GitHub issue link](https://github.com/valhalla/valhalla/issues/3412)) 
 
 **Status:** Phase 1 Complete
 
