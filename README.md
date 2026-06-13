@@ -14,7 +14,7 @@
 
 ## Why I Chose This Issue
 
-I chose this issue because it was one of the more basic ones that I could understand. I also wanted to start off with a topic that I have some experience with. I have built APIs before, especially in Python and C++, which are the languages that this project uses. The goal of making the code more Pythonic is a good start for me as I haven't done much open-source work before. In summary, I wanted to start off with a topic that I have a good understanding of and built up from there.
+I chose this issue because it was one of the more basic ones that I could understand. I also wanted to start off with a topic that I have some experience with. I have built APIs before, especially in Python and C++, which are the languages that this project uses. The goal of double checking the edge IDs and making sure that the lat/lon coordinates are properly used in the valhalla loki namespace is a good start for me as I haven't done much open-source work before. In summary, I wanted to start off with a topic that I have a good understanding of and built up from there.
 
 ---
 
