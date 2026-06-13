@@ -22,19 +22,19 @@ I chose this issue because it was one of the more basic ones that I could unders
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+Basically, when a developer is using loki, which is the coordinate to graph conversion stage, they are forced to pass in raw lat/lon coordinate data. This is just unnecessary computation and wastes performance. Also, the issue pointed out that a missing capability to easily find edge IDs from a trajectory without starting a new map-making request is also needed.
 
 ### Expected Behavior
 
-[What should happen?]
+Users should be able to provide a list of edge IDs with the standard coordinates. The code should skip the normal lookup and instead use the coordinates with the edge geometry to calculate the distances. Lastly, the code should fall back to a normal lookup if the given IDs are invalid.
 
 ### Current Behavior
 
-[What actually happens?]
+None of the above idea is implemented so far.
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+Most of the affected components are in the src/loki directory under the search.cc file. I think there should be changes in the src/worker.cc file as well.
 
 ---
 
