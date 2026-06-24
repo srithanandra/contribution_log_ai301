@@ -42,13 +42,13 @@ Most of the affected components are in the src/loki directory under the search.c
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+At first I didn't really understand how to setup the environment, and I had to use AI to figure out how to set it up. Claude was able to help me understand the details for the setup, and now I have a great understanding.
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Build the code using cmake
+2. Running the test files and making sure the feature is non existent
+3. Saw the lack of the proposed new feature
 
 ### Reproduction Evidence
 
