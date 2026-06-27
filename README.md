@@ -53,7 +53,7 @@ At first I didn't really understand how to setup the environment, and I had to u
 ### Reproduction Evidence
 
 - **Commit showing reproduction:** https://github.com/srithanandra/valhalla/tree/claude/goofy-ptolemy-adfb4e
-- **My findings:** 
+- **My findings:** I found that the edge geometry was not being used at all, and I was able to add this functionality.
 
 ---
 
