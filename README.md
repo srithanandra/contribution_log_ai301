@@ -61,7 +61,7 @@ At first I didn't really understand how to setup the environment, and I had to u
 
 ### Analysis
 
-[Your analysis of the root cause - what's causing the issue?]
+The lack of using the edge IDs properly is what the problem is. The edges should be able to be used to calculate distances, etc., but the edge information is not being used to the fullest extent.
 
 ### Proposed Solution
 
@@ -71,7 +71,7 @@ At first I didn't really understand how to setup the environment, and I had to u
 
 Using UMPIRE framework (adapted):
 
-**Understand:** [Restate the problem]
+**Understand:** The proper use of the edge IDs and distances should be an added functionality.
 
 **Match:** [What similar patterns/solutions exist in the codebase?]
 
