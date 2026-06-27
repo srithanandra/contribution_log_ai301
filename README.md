@@ -52,9 +52,8 @@ At first I didn't really understand how to setup the environment, and I had to u
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **Commit showing reproduction:** https://github.com/srithanandra/valhalla/tree/claude/goofy-ptolemy-adfb4e
+- **My findings:** 
 
 ---
 
