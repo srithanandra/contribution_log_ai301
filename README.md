@@ -1,6 +1,6 @@
 # **CONTRIBUTION LOG AI 301**
 
-# Contribution 1: [onert] Enhance python API - inference
+# Contribution 1: edge_id in locate request
 
 **Contribution Number:** 1 
 
@@ -8,7 +8,7 @@
 
 **Issue:** [GitHub issue link](https://github.com/valhalla/valhalla/issues/3412)
 
-**Status:** Phase 1 Complete
+**Status:** Phase 4 Complete
 
 ---
 
