@@ -138,14 +138,14 @@ Open items: build not yet run; `format.sh` not run; tests need strengthening to 
 
 ## Pull Request
 
-**PR Link:** https://github.com/valhalla/valhalla/pull/6260 — opened as a **draft**.
+**PR Link:** https://github.com/valhalla/valhalla/pull/6260
 
 **Branch:** Opened from a clean branch `loki-preferred-edge-ids` containing only the two code commits (`fb264fc10` + `17440a042`), forked off the working branch `claude/goofy-ptolemy-adfb4e` so this WORKLOG stays out of the upstream diff. The PR touches only `proto/descriptors/common.proto`, `src/loki/search.cc`, `src/worker.cc`, and `test/gurka/test_locate.cc`.
 
 **PR Description:** Per repo policy the body opens with the no-AI marker line `Tryin' to shortcut, arrr ye?`. I still need to rewrite the body in my own words before marking the draft ready for review. Summary: adds an optional `preferred_edge_ids` list to `Location`; Loki projects the coordinate onto each named edge to compute `percent_along` and populates the correlation directly, skipping the bin search, and falls back to the normal search when no supplied ID resolves to a valid, allowed edge.
 
 **Maintainer Feedback:**
-- _None yet._
+- Nothing yet
 
 **Status:** Draft / pre-review. Opened **unverified** — nothing has been compiled or run locally (no toolchain on this machine), so valhalla CI is the first real compile. Next steps: get CI green (or build/test on a Linux box using the commands in the Testing Strategy section), rewrite the PR body in my own words, then mark the PR ready for review.
 
